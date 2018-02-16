@@ -21,8 +21,13 @@
         <a href="moreoperators.php"> more operators</a>
         <a href="compare.php">compare</a>
         <a href="scope.php">scope</a>
-        <a href="moreoperators.php">more operators</a>
         <a href="operators.php">operators</a>
         <a href="kaartspel.php">kaarten</a>
+        <a href="onzegroep.php">onze groep</a>
+        <a href="Eredivisie.php">Eredivisie</a>
+        <a href="dobbel1.php">dobbelsteen</a>
+        <a href="lab01.php">lab 1</a>
+        <a href="lab02.php">lab 2</a>
+
     </body>
 </html>

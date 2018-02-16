@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Saxion - Groep 10</title>
+        <link rel="icon" href="icon.png"/>
+        <meta charset="ascii">
+        <meta lang="NL-nl">
+        <script>
+            //checks previous theme to make all pages have the same theme
+            var theme = localStorage.getItem("Theme");
+            if (theme != null) {
+                document.write('<link rel="stylesheet" type="text/css" href="' + theme + '.css">');
+            } else {
+                document.write('<link rel="stylesheet" type="text/css" href="dark.css">');
+                localStorage.removeItem("Theme");
+                localStorage.setItem("Theme", "dark");
+            }
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="nav">
+                <h1 id="headtitle">Stage bedrijven</h1>
+                <div id="selection">
+                    <p><a href="http://ao-groep10.000webhostapp.com">Groep10</a></p>
+                    <p><a href="stagebedrijven.html">Stagebedrijven</a></p>
+                    <p><a href="docenten.html">Docenten</a></p>
+                    <p><a id="current" href="saxion.html">Saxion</a></p>
+                </div>
+            </div>
+        </header>
+        <article>
+            <h1>Interviews</h1>
+            <section>
+                <h2>Vragen voor de docent Saxion</h2>
+                <h3>1.Welke opleidingen heeft u gevolgd voordat u docent was?</h3>
+                <p>Technische Informatica (Applied Computer Science).</p>
+                <h3>2.Waarom bent u docent geworden?</h3>
+                <p>Omdat het me leuk leek en ik wou mijn kennis bij brengen bij jongere mensen (Studenten).<p>
+                <h3>3.Hoelang bent u al docent?</h3>
+                <p>8 jaar.<p>
+                <h3>4.Hoeveel jaren ervaring heeft u binnen het ICT?</h3>
+                <p>12 jaar.</p>
+                <h3>5.	Heeft u voordat u docent was als ICT ’er gewerkt?</h3>
+                <p>nee.</p>
+                <h3>7.Wat vind u leuk aan docent zijn?</h3>
+                <p>Het opleiden van de studenten.</p>
+                <h3>8.Werkt u met veel verschillende docenten samen?</h3>
+                <p>ja.</p>
+                <h3>9.Heeft u veel werkdruk?</h3>
+                <p>Dat valt wel mee, meestal niet.</p>
+            </section>
+            <h2>Vragen voor de Student</h2>
+                <h3>1.Welke opleiding volg je op dit moment?</h3>
+                <p>Technische Informatica (Applied Computer Science).</p>
+                <h3>2.Hoelang duurt de opleiding?</h3>
+                <p>4 jaar.</p>
+                <h3>3.Werk je veel met andere studenten samen op de opleiding?</h3>
+                <p>Ja, voornamelijk tijdens projecten. We moeten ook jaarlijks mee doen met de internationale projectweek.<br>
+				Tijdens deze week werken we samen met studenten uit andere landen en van andere<br> 
+				opleidingen aan een project dat wordt aangeleverd door een bedrijf.</p>
+                <h3>4.Waarom heb je gekozen voor deze studierichting?</h3>
+                <p>Ik deed hiervoor Mechatronica, maar had niet genoeg studiepunten om door te gaan. Tijdens deze opleiding besefte ik mij dat ik meer de softwarekant op wou en al snel kwam ik bij Technische informatica uit.</p>
+                <h3>5.Wat vind je het leukst aan de studie?</h3>
+                <p>Voornamelijk de softwarevakken en de projecten.</p>
+                <h3>6.Wat voor vakken heb je allemaal?</h3>
+                <p>Voor het gemak heb ik een plaatje van mijn curriculum toegevoegd.
+				
+				LET OP: hier zitten ook vakken van elektrotechniek bij (zie legenda)</p>
+                <h3>7.Wat voor soort projecten heb je allemaal moeten doen?</h3>
+                <p>Ik heb 3 projecten van de opleiding zelf gehad, 1 Smart Solutions Semester en 3 internationale projectweken.<br>
+				Het Smart Solutions Semester is het zelfde als de internationale projectweek, maar dan een half jaar lang.<br>
+				De 3 projecten van de opleiding zelf waren:<br>
+				Project Software: Tijdens dit project moesten we een eigen kluis ontwerpen. <br>
+				Project System:  Hierin moesten we een koffiezetapparaat modificeren om deze modulair te maken.<br>
+				Project Integration: Dit was het leukste project waarin we met IoT aan de slag gingen om ons eigen weerstation te maken.<br></p>
+				<h3>8.Welke kwaliteiten denk je dat iemand nodig heeft voor deze studie?</h3>
+                <p>Voornamelijk: een interesse in techniek.</p>
+				<h3>9.Wat denk je later als beroep je gaan doen?</h3>
+                <p>Softwareontwikkelaar.</p>
+				<h3>10.Heb je al nagedacht over doorstuderen? (Universiteit/Cursussen)</h3>
+                <p>Voor mijn vakgebied is het niet noodzakelijk om door te studeren als je over de kennis en vaardigheden beschikt.<br>
+				Als je dat kan laten zien geven werkgevers niet om je diploma’s </p>
+				<h3>11.Werk je naast studie? Zo ja, Is dit goed te combineren?</h3>
+                <p>Ja, momenteel werk ik bij Previder. Voorheen werkte ik ook nog bij de sting.<br>
+				Dit was makkelijk te studeren als je tijdens de lessen goed oplet en je huiswerk tijdens de werkcolleges maakten.</p>
+				<h3>12.Word er veel uitleg gegeven door de docenten van de opleiding?</h3>
+                <p>Dit gebeurt tijdens hoorcolleges. Daarbuiten zou een leraar altijd tijd voor<br> 
+				je vrij maken als je contact met hem opneemt voor eventuele verdere uitleg.</p>
+				<h3>13.Wat zijn de benodigde sterke punten om de opleiding te kunnen doen?</h3>
+                <p>Het enige wat je moet hebben is interesse in het vakgebied en dat je leergierig bent naar de onderwerpen.<br>
+				Zolang je dat hebt gaat de rest vanzelf.</p>
+				<h3>14.Welke werkzaamheden doe je het voornaamst?</h3>
+                <p>Dit verschilt per kwartiel (zie curriculum).</p>
+				<h3>15.Welke nadelen hangen er aan de opleiding? </h3>
+                <p>Veel lessen zijn in het Engels en het niveau Engels van de docenten is nou niet bepaald je van het.</p>
+				<h3>16.Met welke problemen krijg je het meest te maken?</h3>
+                <p>Slechte communicatie.</p>
+				<h3>17.Welke voordelen heeft de opleiding?</h3>
+                <p>Je hebt veel praktische lessen en leert veel door te doen.</p>
+            </section>
+        </article>
+        <aside id="Info">
+            <h1>Saxion</h1>
+            <p>
+                <b>Specializatie:</b><br>Technische Informatica (Applied Computer Science).<br>
+                <b>Locatie:</b><br>Enschede<br>
+            </p>
+        </aside>
+        <div class="pagestyle">
+            <script>
+                //enables you to change theme and saves the theme to localstorage for other pages
+                let clicked;
+                var theme = localStorage.getItem("Theme");
+                if (theme == "dark") {
+                    document.write('<button id="changestyle">Turn the lights on</button>');
+                    clicked = false;
+                } else if (theme == "light") {
+                    document.write('<button id="changestyle">Turn the lights off</button>');
+                    clicked = true;
+                } else {
+                    console.log("Error, cant fetch light state");
+                }
+                $("button").click(function() {
+                    if(clicked){
+                        var link = document.createElement( "link" );
+                        link.href = "dark.css";
+                        link.type = "text/css";
+                        link.rel = "stylesheet";
+                        link.media = "screen,print";
+                        document.getElementsByTagName( "head" )[0].appendChild( link );
+                        localStorage.setItem("Theme", "dark");
+                        document.getElementById("changestyle").innerText = 'Turn the lights on';
+                        clicked = false;
+                        //location.reload();
+                    } else {
+                        var link = document.createElement( "link" );
+                        link.href = "light.css";
+                        link.type = "text/css";
+                        link.rel = "stylesheet";
+                        link.media = "screen,print";
+                        document.getElementsByTagName( "head" )[0].appendChild( link );
+                        localStorage.setItem("Theme", "light");
+                        document.getElementById("changestyle").innerText = 'Turn the lights off';
+                        clicked = true;
+                        //location.reload();
+                    }   
+                });
+            </script>
+        </div>
+        <footer>
+            <p id="copyright">&copy; Groep 10 - 2018</p>
+            <p id="design">Design by Luuk Vaal, Damion van der Veen</p>
+        </footer>
+    </body>
+</html>
